@@ -20,6 +20,6 @@ The above steps were acomplised with the use of three main user difined function
 3. avreg_activity_subject <- function(list_d_frames = first_split)
 
 The first function is for combining the supplied text files into one dataframe, and is applied separately to testing and training data, which are then comdined in to one datatable named full_dataset.
-The second function for extracting the mean and standard deviation from the full_dataset.
+The second functionis for extracting the mean and standard deviation from the full_dataset.
 The third function is for building a tidy dataframe with each subjects calculated mean corresponding to each of the six activities, this is accomplished by iteratively stepping through three nested loops.
 
