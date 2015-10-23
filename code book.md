@@ -58,8 +58,9 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 ## The set of varibales used in the tidy dataset include:
-mean(): Mean value
-std(): Standard deviation
+1. mean(): Mean value
+2. meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+3. std(): Standard deviation
 
 all other variables were excluded
 
