@@ -3,7 +3,6 @@
 require(data.table)
 require(dplyr)
 
-# 3 user defined functions functions for data wrangling
 
 ## Function for combining supplied text files into one dataframe, applied separately to testing and training data
 data_subject_activity <- function(X, y, subjTxt, features = "features.txt") {
